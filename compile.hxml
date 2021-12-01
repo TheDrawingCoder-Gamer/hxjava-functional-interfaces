@@ -1,5 +1,5 @@
 -cp haxe-src
---main Example
+
 -L hxjava
 --java-lib lib/build/libs/lib.jar
 --jvm bin/main.jar

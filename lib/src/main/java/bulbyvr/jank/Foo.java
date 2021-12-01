@@ -9,4 +9,7 @@ public class Foo {
     public static void doSomething(Supplier<Integer> fun) {
         System.out.println(fun.get());
     }
+    public static void test() {
+        doSomething(() -> 1);
+    }
 }
